@@ -177,11 +177,7 @@ export const socials = [
     icon: "TwitterIcon",
     href: "https://twitter.com/goosedefi",
   },
-  {
-    label: "Reddit",
-    icon: "RedditIcon",
-    href: "https://www.reddit.com/r/GooseFinanceofficial",
-  },
+ 
 ];
 
 export const MENU_HEIGHT = 64;
