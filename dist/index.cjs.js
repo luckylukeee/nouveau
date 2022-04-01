@@ -4549,63 +4549,68 @@ var socials = [
     icon: "TelegramIcon",
     items: [
       {
-        label: "caca",
-        href: "",
+        label: "English",
+        href: "https://t.me/goosedefi",
       },
       // {
       //   label: "Bahasa Indonesia",
       //   href: "https://t.me/PancakeSwapIndonesia",
       // },
-      // {
-      //    label: "中文",
-      ////     href: "https://t.me/goosefinancechinese",
-      // },
+      {
+        label: "中文",
+        href: "https://t.me/goosefinancechinese",
+      },
       // {
       //   label: "Tiếng Việt",
       //   href: "https://t.me/PancakeSwapVN",
       // },
-      //{
-      ///    label: "Italiano",
-      //   href: "https://t.me/goosefinanceitalian",
-      //},
-      //// {
-      //   label: "русский",
-      //   href: "https://t.me/goosefinancerussian",
-      // },
-      // {
-      //     label: "Türkiye",
-      //    href: "https://t.me/GooseFinanceTurkey",
-      // },
+      {
+        label: "Italiano",
+        href: "https://t.me/goosefinanceitalian",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/goosefinancerussian",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/GooseFinanceTurkey",
+      },
       // {
       //   label: "Português",
       //   href: "https://t.me/PancakeSwapPortuguese",
       // },
-      // {
-      //   label: "Español",
-      // href: "https://t.me/goosefinancespanish",
-      //},
-      //{
-      //  label: "日本語",
-      //href: "https://t.me/goosefinancejapanese",
-      //},
-      //{
-      //  label: "Français",
-      //  href: "https://t.me/goosefinancefrench",
-      /// },
-      // {
-      //   label: "Announcements",
-      //  href: "https://t.me/goosefinanceann",
-      //  },
-      // {
-      //     label: "Price Bot",
-      //    href: "https://t.me/BinanceRocketEGG",
-      // },
+      {
+        label: "Español",
+        href: "https://t.me/goosefinancespanish",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/goosefinancejapanese",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/goosefinancefrench",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/goosefinanceann",
+      },
+      {
+        label: "Price Bot",
+        href: "https://t.me/BinanceRocketEGG",
+      },
     ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/goosedefi",
+  },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/GooseFinanceofficial",
   },
 ];
 var MENU_HEIGHT = 64;
@@ -6191,7 +6196,7 @@ var light$1 =
   (_a$2[PRIMARY] = {
     background: lightColors.primary,
     backgroundActive: lightColors.primaryDark,
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
@@ -6201,7 +6206,7 @@ var light$1 =
   (_a$2[SECONDARY] = {
     background: "transparent",
     backgroundActive: "transparent",
-    backgroundHover: "#3a29aa",
+    backgroundHover: "transparent",
     border: "2px solid " + lightColors.primary,
     borderColorHover: lightColors.primaryBright,
     boxShadow: "none",
@@ -6211,7 +6216,7 @@ var light$1 =
   (_a$2[TERTIARY] = {
     background: lightColors.tertiary,
     backgroundActive: lightColors.tertiary,
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
@@ -6221,7 +6226,7 @@ var light$1 =
   (_a$2[TEXT] = {
     background: "transparent",
     backgroundActive: "transparent",
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",

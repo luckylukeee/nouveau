@@ -4485,24 +4485,70 @@ var socials = [
   {
     label: "Telegram",
     icon: "TelegramIcon",
-    items: {
-      label: "CACA",
-      href: "",
-    },
-    // {
-    //   label: "Bahasa Indonesia",
-    //   href: "https://t.me/PancakeSwapIndonesia",
-    // },
-
-    // {
-    //   label: "Tiếng Việt",
-    //   href: "https://t.me/PancakeSwapVN",
-    // },
+    items: [
+      {
+        label: "English",
+        href: "https://t.me/goosedefi",
+      },
+      // {
+      //   label: "Bahasa Indonesia",
+      //   href: "https://t.me/PancakeSwapIndonesia",
+      // },
+      {
+        label: "中文",
+        href: "https://t.me/goosefinancechinese",
+      },
+      // {
+      //   label: "Tiếng Việt",
+      //   href: "https://t.me/PancakeSwapVN",
+      // },
+      {
+        label: "Italiano",
+        href: "https://t.me/goosefinanceitalian",
+      },
+      {
+        label: "русский",
+        href: "https://t.me/goosefinancerussian",
+      },
+      {
+        label: "Türkiye",
+        href: "https://t.me/GooseFinanceTurkey",
+      },
+      // {
+      //   label: "Português",
+      //   href: "https://t.me/PancakeSwapPortuguese",
+      // },
+      {
+        label: "Español",
+        href: "https://t.me/goosefinancespanish",
+      },
+      {
+        label: "日本語",
+        href: "https://t.me/goosefinancejapanese",
+      },
+      {
+        label: "Français",
+        href: "https://t.me/goosefinancefrench",
+      },
+      {
+        label: "Announcements",
+        href: "https://t.me/goosefinanceann",
+      },
+      {
+        label: "Price Bot",
+        href: "https://t.me/BinanceRocketEGG",
+      },
+    ],
   },
   {
     label: "Twitter",
     icon: "TwitterIcon",
     href: "https://twitter.com/goosedefi",
+  },
+  {
+    label: "Reddit",
+    icon: "RedditIcon",
+    href: "https://www.reddit.com/r/GooseFinanceofficial",
   },
 ];
 var MENU_HEIGHT = 64;
@@ -5989,9 +6035,9 @@ var templateObject_1$K;
 
 var baseColors = {
   failure: "#ED4B9E",
-  primary: "#3a29aa",
-  primaryBright: "#3a29aa",
-  primaryDark: "#3a29aa",
+  primary: "#aa8929",
+  primaryBright: "#aa8929",
+  primaryDark: "#aa8929",
   secondary: "#7645D9",
   success: "#31D0AA",
   warning: "#FFB237",
@@ -6054,7 +6100,7 @@ var light$1 =
   (_a$2[PRIMARY] = {
     background: lightColors.primary,
     backgroundActive: lightColors.primaryDark,
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.primaryBright,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "inset 0px -1px 0px rgba(14, 14, 44, 0.4)",
@@ -6064,7 +6110,7 @@ var light$1 =
   (_a$2[SECONDARY] = {
     background: "transparent",
     backgroundActive: "transparent",
-    backgroundHover: "#3a29aat",
+    backgroundHover: "transparent",
     border: "2px solid " + lightColors.primary,
     borderColorHover: lightColors.primaryBright,
     boxShadow: "none",
@@ -6074,7 +6120,7 @@ var light$1 =
   (_a$2[TERTIARY] = {
     background: lightColors.tertiary,
     backgroundActive: lightColors.tertiary,
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
@@ -6084,7 +6130,7 @@ var light$1 =
   (_a$2[TEXT] = {
     background: "transparent",
     backgroundActive: "transparent",
-    backgroundHover: "#3a29aa",
+    backgroundHover: lightColors.tertiary,
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
@@ -6104,7 +6150,7 @@ var light$1 =
   (_a$2[SUBTLE] = {
     background: lightColors.textSubtle,
     backgroundActive: lightColors.textSubtle + "D9",
-    backgroundHover: "#FF65B8",
+    backgroundHover: lightColors.textSubtle + "B3",
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
@@ -6114,7 +6160,7 @@ var light$1 =
   (_a$2[SUCCESS] = {
     background: lightColors.success,
     backgroundActive: lightColors.success + "D9",
-    backgroundHover: "#FF65B8",
+    backgroundHover: lightColors.success + "B3",
     border: 0,
     borderColorHover: "currentColor",
     boxShadow: "none",
