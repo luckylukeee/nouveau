@@ -35,9 +35,8 @@ it("renders correctly", () => {
         langs={langs}
         setLang={noop}
         currentLang="EN"
-        cakePriceUsd={1000.23158668932877668}
-        links={menuConfig}
-      >
+        cakePriceUsd={0.23158668932877668}
+        links={menuConfig} priceLink={""}      >
         body
       </Menu>
     </BrowserRouter>
