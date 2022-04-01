@@ -3845,10 +3845,10 @@ var Logo = function (_a) {
     props = __rest(_a, ["isDark"]);
   return React__default["default"].createElement(
     Svg,
-    __assign({ viewBox: "0 0 205 26" }, props),
+    __assign({ viewBox: "0 0 245 46" }, props),
     React__default["default"].createElement("image", {
-      width: "205",
-      height: "26",
+      width: "245",
+      height: "46",
       href: isDark ? "/images/egg/LogoTextNewDark.png" : "/images/egg/LogoTextNewWhite.png",
     })
   );
