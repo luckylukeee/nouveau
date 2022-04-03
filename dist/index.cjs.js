@@ -4550,7 +4550,7 @@ var socials = [
     items: [
       {
         label: "English",
-        href: "https://twitter.com/GalaxyFarm1",
+        href: "https://t.me/GalaxyFarm1",
       },
       // {
       //   label: "Bahasa Indonesia",
